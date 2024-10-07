@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./dessert.css">
+    <script src="./dessert.js" defer></script>
+</head>
+<body>
+    
+<div class="container">
+<section class="main-section">
+
+<h1>Desserts</h1>
+           
+<div id="cart">
+<main>
+
+<div class="product">
+<img class="productimage" src="./images/image-waffle-desktop.jpg" >
+<button onclick="decrement('productA')">-</button>
+<span id="productA-quantity"><img class="add" src="./images/icon-add-to-cart.svg">Add to cart</span>
+<button onclick="increment('productA', 6.50)">+</button>
+<p>Waffle</p>
+<h3>Waffle with Berries</h3>
+<h3 class="price">$6.50</h3>  
+</div>   
+
+<div class="product">
+<img class="productimage" src="./images/image-creme-brulee-desktop.jpg">
+<button onclick="decrement('productB')">-</button>
+<span id="productB-quantity"><img class="add" src="./images/icon-add-to-cart.svg">Add to cart</span>
+<button onclick="increment('productB', 7.00)">+</button>
+<p>Creme Brulee</p>
+<h3>Vanilla Bean Creme Brulee</h3>
+<h3 class="price">$7.00</h3>  
+</div>
+
+<div class="product">
+<img class="productimage" src="./images/image-macaron-desktop.jpg">
+<button onclick="decrement('productC')">-</button>
+<span id="productC-quantity"><img class="add" src="./images/icon-add-to-cart.svg">Add to cart</span>
+<button onclick="increment('productC', 7.00)">+</button>
+<p>Macaron</p>
+<h3>Macaron Mix of Five</h3>
+<h3 class="price">$8.00</h3>  
+</div>
+
+<div class="product">
+<img class="productimage" src="./images/image-tiramisu-desktop.jpg">
+<button onclick="decrement('productD')">-</button>
+<span id="productD-quantity"><img class="add" src="./images/icon-add-to-cart.svg">Add to cart</span>
+<button onclick="increment('productD', 5.50)">+</button>
+<p>Tiramisu</p>
+<h3>Classic Tiramisu</h3>
+<h3 class="price">$5.50</h3>  
+</div>
+            
+<div class="product">
+<img class="productimage" src="./images/image-baklava-desktop.jpg">
+<button onclick="decrement('productE')">-</button>
+<span id="productE-quantity"><img class="add" src="./images/icon-add-to-cart.svg">Add to cart</span>
+<button onclick="increment('productE', 5.50)">+</button>
+<p>Baklava</p>
+<h3>Pistachio Baklava</h3>
+<h3 class="price">$4.00</h3>  
+</div>
+            
+<div class="product">
+<img class="productimage" src="./images/image-meringue-desktop.jpg">
+<button onclick="decrement('productF')">-</button>
+<span id="productF-quantity"><img class="add" src="./images/icon-add-to-cart.svg">Add to cart</span>
+<button onclick="increment('productF', 7.00)">+</button>
+<p>Pie</p>
+<h3>Lemon Meringue Pie</h3>
+<h3 class="price">$5.00</h3>  
+</div>
+
+<div class="product">
+<img class="productimage" src="./images/image-cake-desktop.jpg">
+<button onclick="decrement('productG')">-</button>
+<span id="productG-quantity"><img class="add" src="./images/icon-add-to-cart.svg">Add to cart</span>
+<button onclick="increment('productG', 5.50)">+</button>
+<p>Cake</p>
+<h3>Red Velvet cake</h3>
+<h3 class="price">$4.50</h3>  
+</div>
+
+            
+<div class="product">
+<img class="productimage" src="./images/image-brownie-desktop.jpg">
+<button onclick="decrement('productH')">-</button>
+<span id="productH-quantity"><img class="add" src="./images/icon-add-to-cart.svg">Add to cart</span>
+<button onclick="increment('productH', 5.50)">+</button>
+<p>Brownie</p>
+<h3>Salted caramel Brownie</h3>
+<h3 class="price">$5.50</h3>  
+</div>
+
+<div class="product">
+<img class="productimage" src="./images/image-panna-cotta-desktop.jpg">
+<button onclick="decrement('productI')">-</button>
+<span id="productI-quantity"><img class="add" src="./images/icon-add-to-cart.svg">Add to cart</span>
+<button onclick="increment('productI', 6.50)">+</button>
+<p>Panna Cotta</p>
+<h3>Vanilla Panna Cotta</h3>
+<h3 class="price">$6.50</h3>  
+</div>
+
+<h3 class="total">Total Price: $<span id="total-price">0</span></h3>
+</div>
+</main>
+</section>
+      
+<aside class="sidebar">
+<div class="cart">
+      
+<h4 style="background-color: white;">Your Cart (<button style="background-color: white;" class="quantity">0</button>)</h4>
+<div class="empty-content">
+<img style="background-color: white;" src="./images/illustration-empty-cart.svg">
+<p class="empty-message">Your added items will appear here</p>
+</div>   
+</div>
+</aside>
+
+</div>
+
+</body>
+</html>
